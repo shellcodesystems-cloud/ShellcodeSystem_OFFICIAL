@@ -5,16 +5,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shellcode Systems | Voice-to-Data Industrial Automation</title>
-  <meta name="description" content="Autonomous voice-to-spreadsheet automation for brick kilns, logistics fleets, and heavy trade. Zero typing, instant Google Sheets sync." />
-  <meta name="keywords" content="Shellcode Systems, Shellcode Systems Official, brick kiln automation, voice chalan entry, Kolkata automation startup" />
+  <meta name="description" content="Production-ready voice-to-spreadsheet automation for brick kilns, fleet logistics, and heavy trade. Instant Telegram receipts and dynamic live net balance ledgers." />
+  <meta name="keywords" content="Shellcode Systems, Shellcode Systems Official, brick kiln automation, voice chalan entry, Kolkata automation startup, Aamir Molla" />
   <meta name="author" content="Aamir Molla" />
   <link rel="canonical" href="https://shellcodesystemofficial.vercel.app/" />
 
   <!-- Open Graph / WhatsApp Preview -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://shellcodesystemofficial.vercel.app/" />
-  <meta property="og:title" content="Shellcode Systems | Official Website" />
-  <meta property="og:description" content="Voice-to-data automation workflows for brick kilns, aggregates, and fleet logistics. Zero typing, instant Google Sheets sync." />
+  <meta property="og:title" content="Shellcode Systems | Voice-to-Spreadsheet Industrial Automation" />
+  <meta property="og:description" content="Autonomous voice-driven dispatch and live balance tracking for brick kilns and heavy logistics. 100% hands-free Google Sheets sync." />
 
   <!-- Google Organization & LocalBusiness Structured Data -->
   <script type="application/ld+json">
@@ -47,6 +47,8 @@
   
   <style>
     :root {
+      --mouse-x: 50%;
+      --mouse-y: 50%;
       --primary-cyan: #06b6d4;
       --accent-blue: #3b82f6;
       --neon-emerald: #10b981;
@@ -54,7 +56,7 @@
 
     body {
       font-family: 'Plus Jakarta Sans', sans-serif;
-      background-color: #030712;
+      background-color: #020617;
       color: #F3F4F6;
       overflow-x: hidden;
     }
@@ -67,16 +69,21 @@
       font-family: 'JetBrains Mono', monospace;
     }
 
-    /* Ambient Animated Grid */
+    /* Ambient Dynamic Cyber Grid */
     .cyber-grid {
-      background-size: 50px 50px;
+      background-size: 56px 56px;
       background-image: 
-        linear-gradient(to right, rgba(6, 182, 212, 0.05) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(59, 130, 246, 0.05) 1px, transparent 1px);
-      mask-image: radial-gradient(ellipse at 50% 50%, black 40%, transparent 80%);
+        linear-gradient(to right, rgba(6, 182, 212, 0.04) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(59, 130, 246, 0.04) 1px, transparent 1px);
+      mask-image: radial-gradient(ellipse at 50% 50%, black 30%, transparent 85%);
     }
 
-    /* Animated Flowing Gradient Background */
+    /* Dynamic Cursor Lighting Overlay */
+    .cursor-spotlight {
+      background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(6, 182, 212, 0.08), transparent 40%);
+    }
+
+    /* Gradient Shifts */
     @keyframes gradientShift {
       0% { background-position: 0% 50%; }
       50% { background-position: 100% 50%; }
@@ -84,93 +91,90 @@
     }
 
     .animated-text-gradient {
-      background: linear-gradient(90deg, #38bdf8, #818cf8, #2dd4bf, #38bdf8);
+      background: linear-gradient(90deg, #38bdf8, #818cf8, #2dd4bf, #67e8f9, #38bdf8);
       background-size: 300% 300%;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       animation: gradientShift 6s ease infinite;
     }
 
-    /* Soundwave Equalizer Animation */
-    @keyframes soundwaveAnim {
-      0%, 100% { height: 8px; opacity: 0.4; }
-      50% { height: 38px; opacity: 1; }
-    }
-    .wave-bar {
-      animation: soundwaveAnim 1.1s ease-in-out infinite;
-      border-radius: 9999px;
-    }
-    .wave-bar:nth-child(1) { animation-delay: 0.05s; }
-    .wave-bar:nth-child(2) { animation-delay: 0.25s; }
-    .wave-bar:nth-child(3) { animation-delay: 0.45s; }
-    .wave-bar:nth-child(4) { animation-delay: 0.65s; }
-    .wave-bar:nth-child(5) { animation-delay: 0.15s; }
-    .wave-bar:nth-child(6) { animation-delay: 0.35s; }
-    .wave-bar:nth-child(7) { animation-delay: 0.55s; }
-    .wave-bar:nth-child(8) { animation-delay: 0.75s; }
-    .wave-bar:nth-child(9) { animation-delay: 0.2s; }
-
-    /* Floating Card Motion */
-    @keyframes floatCard {
-      0%, 100% { transform: translateY(0px) rotate(0deg); }
-      50% { transform: translateY(-12px) rotate(0.4deg); }
-    }
-    .floating-element {
-      animation: floatCard 6s ease-in-out infinite;
-    }
-
-    /* Laser Line Scan Animation */
-    @keyframes scanline {
-      0% { transform: translateY(-100%); opacity: 0; }
-      50% { opacity: 0.8; }
-      100% { transform: translateY(300%); opacity: 0; }
-    }
-    .scanner-line {
-      animation: scanline 3.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-    }
-
-    /* Futuristic Glassmorphic Card */
+    /* Reactive Glassmorphic Card */
     .glass-card {
-      background: linear-gradient(135deg, rgba(15, 23, 42, 0.75) 0%, rgba(3, 7, 18, 0.9) 100%);
-      backdrop-filter: blur(16px);
-      border: 1px solid rgba(56, 189, 248, 0.14);
-      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.7) 0%, rgba(2, 6, 23, 0.88) 100%);
+      backdrop-filter: blur(18px);
+      border: 1px solid rgba(56, 189, 248, 0.12);
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
       position: relative;
     }
+    .glass-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(56, 189, 248, 0.1), transparent 50%);
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      pointer-events: none;
+    }
+    .glass-card:hover::before {
+      opacity: 1;
+    }
     .glass-card:hover {
-      transform: translateY(-6px) scale(1.01);
-      border-color: rgba(56, 189, 248, 0.5);
-      box-shadow: 0 20px 40px -15px rgba(6, 182, 212, 0.25);
+      transform: translateY(-5px);
+      border-color: rgba(56, 189, 248, 0.4);
+      box-shadow: 0 24px 48px -18px rgba(6, 182, 212, 0.22);
+    }
+
+    /* Audio Equalizer Waveform */
+    @keyframes waveMotion {
+      0%, 100% { height: 6px; }
+      50% { height: 38px; }
+    }
+    .sound-bar {
+      animation: waveMotion 1.2s ease-in-out infinite;
+      border-radius: 9999px;
     }
 
     /* Ambient Pulsing Glow */
     @keyframes pulseGlow {
-      0%, 100% { opacity: 0.25; transform: scale(1); }
-      50% { opacity: 0.45; transform: scale(1.08); }
+      0%, 100% { opacity: 0.18; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(1.06); }
     }
     .orb-pulse {
-      animation: pulseGlow 7s ease-in-out infinite;
+      animation: pulseGlow 8s ease-in-out infinite;
+    }
+
+    /* Laser Scanner Beam */
+    @keyframes scanlineMotion {
+      0% { top: -5%; opacity: 0; }
+      20% { opacity: 0.8; }
+      80% { opacity: 0.8; }
+      100% { top: 105%; opacity: 0; }
+    }
+    .laser-scanner {
+      animation: scanlineMotion 3.8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
     }
   </style>
 </head>
 <body class="selection:bg-cyan-500 selection:text-black min-h-screen flex flex-col justify-between relative">
 
-  <!-- Canvas Background for Dynamic Particle Network -->
+  <!-- Interactive Dynamic Lighting & Particle Canvas -->
+  <div id="spotlightOverlay" class="fixed inset-0 cursor-spotlight pointer-events-none z-0"></div>
   <canvas id="particleCanvas" class="fixed inset-0 pointer-events-none z-0"></canvas>
 
   <!-- Ambient Light Orbs -->
-  <div class="fixed top-[-100px] left-1/2 -translate-x-1/2 w-[850px] h-[450px] bg-cyan-600/20 blur-[160px] pointer-events-none rounded-full orb-pulse z-0"></div>
-  <div class="fixed top-[45%] -left-[100px] w-[500px] h-[500px] bg-blue-600/15 blur-[150px] pointer-events-none rounded-full orb-pulse z-0"></div>
-  <div class="fixed top-[65%] -right-[100px] w-[500px] h-[500px] bg-emerald-600/10 blur-[150px] pointer-events-none rounded-full orb-pulse z-0"></div>
+  <div class="fixed top-[-140px] left-1/2 -translate-x-1/2 w-[900px] h-[500px] bg-cyan-600/15 blur-[170px] pointer-events-none rounded-full orb-pulse z-0"></div>
+  <div class="fixed top-[45%] -left-[140px] w-[550px] h-[550px] bg-blue-600/10 blur-[160px] pointer-events-none rounded-full orb-pulse z-0"></div>
+  <div class="fixed top-[65%] -right-[140px] w-[550px] h-[550px] bg-emerald-600/10 blur-[160px] pointer-events-none rounded-full orb-pulse z-0"></div>
 
   <!-- Cyber Grid Texture Overlay -->
   <div class="fixed inset-0 cyber-grid pointer-events-none z-0"></div>
 
   <!-- Interactive Navigation -->
-  <header class="sticky top-0 z-50 backdrop-blur-xl bg-[#030712]/80 border-b border-cyan-500/10 px-6 py-4">
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-[#020617]/85 border-b border-cyan-500/10 px-6 py-4">
     <div class="max-w-7xl mx-auto flex items-center justify-between">
       
-      <!-- Brand Logo -->
+      <!-- Brand Identity -->
       <a href="#" class="flex items-center gap-3.5 group">
         <div class="relative w-11 h-11 rounded-xl bg-gradient-to-tr from-cyan-500 via-blue-600 to-indigo-600 flex items-center justify-center font-bold text-white shadow-lg shadow-cyan-500/25 group-hover:shadow-cyan-400/40 transition-all duration-300">
           <span class="text-xl tracking-wider">S</span>
@@ -178,26 +182,29 @@
         </div>
         <div class="flex flex-col">
           <span class="text-lg font-bold tracking-tight text-white font-heading leading-tight">SHELLCODE <span class="text-cyan-400">SYSTEMS</span></span>
-          <span class="text-[10px] uppercase font-mono-code text-cyan-500/80 tracking-widest">Industrial Automation</span>
+          <span class="text-[10px] uppercase font-mono-code text-cyan-400/90 tracking-widest">Industrial Voice Engine</span>
         </div>
       </a>
 
       <!-- Navigation & Action Links -->
       <div class="flex items-center gap-4">
-        <a href="#pricing" class="hidden md:inline-block text-xs font-mono-code text-slate-300 hover:text-cyan-300 transition px-3 py-1.5 rounded-lg border border-transparent hover:border-cyan-500/30">
-          Deployment & Pricing
+        <a href="#features" class="hidden lg:inline-block text-xs font-mono-code text-slate-300 hover:text-cyan-300 transition px-3 py-1.5">
+          Architecture
+        </a>
+        <a href="#pricing" class="hidden md:inline-block text-xs font-mono-code text-slate-300 hover:text-cyan-300 transition px-3 py-1.5">
+          Commercial Tiers
         </a>
 
-        <div class="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-lg bg-cyan-950/40 border border-cyan-500/20 text-xs font-mono-code text-cyan-300">
+        <div class="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-lg bg-cyan-950/40 border border-cyan-500/20 text-xs font-mono-code text-cyan-300">
           <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
-          <span>99.9% Uptime Engine</span>
+          <span>99.9% Uptime Production Engine</span>
         </div>
 
         <a href="https://wa.me/919064007423?text=Hi%20Aamir,%20I%20want%20to%20deploy%20Shellcode%20voice%20automation%20for%20my%20business." 
            target="_blank"
            class="relative group overflow-hidden rounded-xl p-[1px] focus:outline-none">
           <span class="absolute inset-0 bg-gradient-to-r from-cyan-500 via-blue-500 to-emerald-400 rounded-xl transition-all duration-300 group-hover:scale-105"></span>
-          <span class="relative block px-5 py-2.5 rounded-[11px] bg-[#030712] transition-colors duration-200 group-hover:bg-opacity-80">
+          <span class="relative block px-5 py-2.5 rounded-[11px] bg-[#020617] transition-colors duration-200 group-hover:bg-opacity-80">
             <span class="text-sm font-semibold text-cyan-300 group-hover:text-white flex items-center gap-2">
               <span>Book 5-Day Free Pilot</span>
               <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
@@ -213,27 +220,27 @@
   <main class="relative z-10">
     <section class="max-w-7xl mx-auto px-6 pt-20 pb-16 text-center relative">
       
-      <!-- Live Status Terminal Tag -->
+      <!-- Live Status Badge -->
       <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-cyan-500/30 bg-cyan-950/40 backdrop-blur-md mb-8 shadow-inner shadow-cyan-500/10">
         <span class="relative flex h-2.5 w-2.5">
           <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
           <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-cyan-500"></span>
         </span>
         <span class="text-xs font-semibold uppercase tracking-widest font-mono-code text-cyan-300">
-          Voice-to-Spreadsheet Automation • Heavy Industries
+          Autonomous Voice-to-Spreadsheet Engine • Heavy Industries
         </span>
       </div>
 
       <!-- Main Headline -->
       <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold text-white tracking-tight leading-[1.12] max-w-5xl mx-auto mb-7">
-        Zero Typing. Zero Mistakes. <br class="hidden sm:inline" />
+        Zero Typing. Zero Calculation Errors. <br class="hidden sm:inline" />
         <span class="animated-text-gradient">
-          Pure Voice-Driven Dispatches.
+          Pure Voice-Driven Dispatches & Live Balances.
         </span>
       </h1>
 
       <p class="text-slate-300 text-lg sm:text-xl max-w-3xl mx-auto mb-11 leading-relaxed font-light">
-        Engineered specifically for brick kilns (<span class="text-cyan-300 italic font-medium">ইটভাটা</span>), sand/stone quarries, and logistics fleets. Gate staff speak conversational Bengali, Hindi, or English on Telegram—Shellcode calculates balances, parses grades, and updates live master sheets instantly.
+        Custom engineered for brick kilns (<span class="text-cyan-300 italic font-medium">ইটভাটা</span>), aggregate quarries, and lorry fleets. Gate staff speak casual Bengali, Hindi, or English on Telegram—Shellcode parses dialect names, isolates site balances, and updates live master ledgers in real time.
       </p>
 
       <!-- CTA Action Group -->
@@ -247,52 +254,96 @@
 
         <a href="tel:+919064007423" 
            class="w-full sm:w-auto px-8 py-4 rounded-xl font-medium text-cyan-300 border border-cyan-500/30 bg-slate-950/70 hover:bg-cyan-950/40 hover:border-cyan-400 transition-all duration-200 flex items-center justify-center gap-2">
-          <span>Call: +91 90640 07423</span>
+          <span>Call Founder: +91 90640 07423</span>
         </a>
       </div>
 
-      <!-- Live Voice Simulator with Scanner Line & Audio Equalizer -->
-      <div class="max-w-2xl mx-auto floating-element glass-card p-7 rounded-2xl shadow-2xl relative overflow-hidden text-left border border-cyan-500/25">
+      <!-- Live Voice Telemetry Simulator -->
+      <div class="max-w-3xl mx-auto glass-card p-7 rounded-2xl shadow-2xl relative overflow-hidden text-left border border-cyan-500/25">
         
-        <div class="scanner-line absolute left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-cyan-400 to-transparent z-20"></div>
+        <!-- Animated Scanner Beam -->
+        <div class="laser-scanner absolute left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-cyan-400 to-transparent z-20"></div>
 
-        <div class="flex items-center justify-between mb-5 pb-4 border-b border-white/5">
+        <!-- Terminal Header -->
+        <div class="flex items-center justify-between mb-5 pb-4 border-b border-white/10">
           <div class="flex items-center gap-3">
             <span class="flex h-3 w-3 relative">
               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
               <span class="relative inline-flex rounded-full h-3 w-3 bg-cyan-500"></span>
             </span>
-            <span class="text-xs font-semibold uppercase tracking-widest font-mono-code text-cyan-300">Live Telegram Pipeline</span>
+            <span class="text-xs font-semibold uppercase tracking-widest font-mono-code text-cyan-300">Live Telegram Processing Pipeline</span>
           </div>
-          <span class="text-xs px-2.5 py-1 rounded bg-cyan-950/80 border border-cyan-500/30 text-cyan-300 font-mono-code">AI Active</span>
+          <div class="flex items-center gap-2">
+            <span class="text-[11px] px-2 py-0.5 rounded bg-emerald-950/80 border border-emerald-500/30 text-emerald-300 font-mono-code">Acoustic Filter Active</span>
+            <span class="text-[11px] px-2 py-0.5 rounded bg-cyan-950/80 border border-cyan-500/30 text-cyan-300 font-mono-code">Gemini AI Online</span>
+          </div>
         </div>
 
-        <div class="flex items-center gap-4 bg-slate-950/80 p-4.5 rounded-xl border border-cyan-500/20 shadow-inner">
-          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 text-cyan-300 flex items-center justify-center text-xl shrink-0">
-            🎙️
+        <!-- Voice Input Audio Bar & Telemetry -->
+        <div class="bg-slate-950/90 p-5 rounded-xl border border-cyan-500/20 shadow-inner mb-4">
+          <div class="flex items-center justify-between mb-3 text-xs font-mono-code text-slate-400">
+            <span class="flex items-center gap-2">
+              <span class="text-red-400 animate-pulse">● REC</span>
+              <span>Audio Buffer: 00:08 (Telegram Voice Note)</span>
+            </span>
+            <span class="text-cyan-400 font-semibold">Tractor & Noise Suppressed: 100%</span>
           </div>
-          
-          <div class="flex items-center gap-1.5 h-10 grow px-2">
-            <span class="wave-bar w-1.5 bg-cyan-400"></span>
-            <span class="wave-bar w-1.5 bg-blue-400"></span>
-            <span class="wave-bar w-1.5 bg-teal-300"></span>
-            <span class="wave-bar w-1.5 bg-cyan-300"></span>
-            <span class="wave-bar w-1.5 bg-indigo-400"></span>
-            <span class="wave-bar w-1.5 bg-cyan-400"></span>
-            <span class="wave-bar w-1.5 bg-teal-400"></span>
-            <span class="wave-bar w-1.5 bg-blue-500"></span>
-            <span class="wave-bar w-1.5 bg-cyan-300"></span>
+
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 text-cyan-300 flex items-center justify-center text-xl shrink-0">
+              🎙️
+            </div>
+            
+            <!-- Dynamic Soundwave Frequency Bars -->
+            <div class="flex items-center gap-1.5 h-10 grow px-2 overflow-hidden">
+              <span class="sound-bar w-1.5 bg-cyan-400" style="animation-delay: 0.1s;"></span>
+              <span class="sound-bar w-1.5 bg-blue-400" style="animation-delay: 0.25s;"></span>
+              <span class="sound-bar w-1.5 bg-teal-300" style="animation-delay: 0.4s;"></span>
+              <span class="sound-bar w-1.5 bg-cyan-300" style="animation-delay: 0.15s;"></span>
+              <span class="sound-bar w-1.5 bg-indigo-400" style="animation-delay: 0.35s;"></span>
+              <span class="sound-bar w-1.5 bg-cyan-400" style="animation-delay: 0.05s;"></span>
+              <span class="sound-bar w-1.5 bg-teal-400" style="animation-delay: 0.5s;"></span>
+              <span class="sound-bar w-1.5 bg-blue-500" style="animation-delay: 0.3s;"></span>
+              <span class="sound-bar w-1.5 bg-cyan-300" style="animation-delay: 0.2s;"></span>
+              <span class="sound-bar w-1.5 bg-teal-300" style="animation-delay: 0.45s;"></span>
+              <span class="sound-bar w-1.5 bg-blue-400" style="animation-delay: 0.1s;"></span>
+              <span class="sound-bar w-1.5 bg-cyan-400" style="animation-delay: 0.25s;"></span>
+            </div>
+            <span class="text-xs font-mono-code text-cyan-300 bg-cyan-950/80 px-2.5 py-1.5 rounded border border-cyan-500/30">48.2 kHz</span>
           </div>
-          <span class="text-xs font-mono-code text-cyan-400 bg-cyan-950/60 px-2 py-1 rounded border border-cyan-500/20">00:08</span>
+
+          <!-- Spoken Audio Transcription Box -->
+          <div class="mt-4 pt-3 border-t border-white/5 font-mono-code text-xs text-slate-300 flex items-start gap-2">
+            <span class="text-cyan-400 shrink-0">Spoken Bengali:</span>
+            <span class="italic text-slate-200">"আমির মোল্লা হিমচি ৪৮০০ টাকা PhonePe তে জমা দিল"</span>
+          </div>
         </div>
 
-        <div class="mt-4.5 pt-3.5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs font-mono-code border-t border-white/5">
+        <!-- Telemetry Breakdown & Dynamic Calculation -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs font-mono-code">
+          <div class="p-3 rounded-lg bg-slate-900/80 border border-white/5">
+            <span class="text-slate-400 block mb-1">Site & Master Address Resolution:</span>
+            <div class="text-emerald-400 font-semibold flex items-center gap-1.5">
+              <span>✓ Matchpukurya (Himchi)</span>
+              <span class="text-[10px] text-slate-500 font-normal">[Master Row M2]</span>
+            </div>
+          </div>
+          <div class="p-3 rounded-lg bg-slate-900/80 border border-white/5">
+            <span class="text-slate-400 block mb-1">Dynamic Net Due Recalculation:</span>
+            <div class="text-cyan-300 font-semibold">
+              ₹19,600 → <span class="text-yellow-400">₹14,800</span> (Live Countdown)
+            </div>
+          </div>
+        </div>
+
+        <!-- Status Bottom -->
+        <div class="mt-4 pt-3 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs font-mono-code border-t border-white/5">
           <div class="flex items-center gap-2 text-emerald-400">
             <svg class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-            <span>Master Sheet Row #1249 Updated</span>
+            <span>Google Sheet Sync & Telegram Voucher Generated</span>
           </div>
           <div class="text-cyan-400/80">
-            Latency: <span class="text-white font-bold">1.8s</span> • Digital Receipt Sent
+            Latency: <span class="text-white font-bold">1.8s</span> • Zero Human Typing
           </div>
         </div>
 
@@ -311,12 +362,12 @@
 
         <div class="glass-card p-6 rounded-2xl text-center">
           <div class="text-3xl sm:text-4xl font-extrabold text-teal-300 font-heading mb-1">&lt; 3 Sec</div>
-          <div class="text-xs sm:text-sm text-slate-400">Instant Receipt Generation</div>
+          <div class="text-xs sm:text-sm text-slate-400">Instant Voucher Generation</div>
         </div>
 
         <div class="glass-card p-6 rounded-2xl text-center">
-          <div class="text-3xl sm:text-4xl font-extrabold text-blue-400 font-heading mb-1">₹0</div>
-          <div class="text-xs sm:text-sm text-slate-400">Hardware Investment</div>
+          <div class="text-3xl sm:text-4xl font-extrabold text-blue-400 font-heading mb-1">Multi-Site</div>
+          <div class="text-xs sm:text-sm text-slate-400">Isolated Village Balances</div>
         </div>
 
         <div class="glass-card p-6 rounded-2xl text-center">
@@ -327,11 +378,11 @@
       </div>
     </section>
 
-    <!-- Operational Architecture -->
-    <section class="max-w-7xl mx-auto px-6 py-20">
+    <!-- Operational Architecture Section -->
+    <section id="features" class="max-w-7xl mx-auto px-6 py-20">
       <div class="text-center mb-16">
-        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Engineered for Dusty, Tough Field Operations</h2>
-        <p class="text-slate-400 max-w-2xl mx-auto text-sm sm:text-base">Traditional software requires clean hands, computers, and slow typing. Shellcode runs entirely inside standard smartphone voice notes.</p>
+        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Production-Hardened for High-Dust Loading Yards</h2>
+        <p class="text-slate-400 max-w-2xl mx-auto text-sm sm:text-base">Traditional software fails in muddy kilns because clerks cannot type with dirty hands. Shellcode operates entirely inside natural voice messages.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -340,9 +391,9 @@
           <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 flex items-center justify-center mb-6 text-2xl font-bold">
             ⚡
           </div>
-          <h3 class="text-xl font-bold text-white mb-3">Hands-Free Chalan Entry</h3>
+          <h3 class="text-xl font-bold text-white mb-3">Dialect Voice Dispatches</h3>
           <p class="text-slate-300 text-sm leading-relaxed font-light">
-            No keyboards in muddy loading yards. Site supervisors record an 8-second conversational voice note. Quantities, brick grades, vehicle numbers, and cash collected are structured automatically.
+            Site clerks record natural 8-second voice notes. Quantities, brick grades, lorry numbers, and gate cash are instantly extracted and structured without touching a keyboard.
           </p>
         </div>
 
@@ -350,9 +401,9 @@
           <div class="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/30 text-blue-400 flex items-center justify-center mb-6 text-2xl font-bold">
             📊
           </div>
-          <h3 class="text-xl font-bold text-white mb-3">Multi-Month Dadon (দাদন) Ledgers</h3>
+          <h3 class="text-xl font-bold text-white mb-3">Live Dynamic Net Due</h3>
           <p class="text-slate-300 text-sm leading-relaxed font-light">
-            Eliminates dispute-heavy paper khata. Automatically reconciles lump-sum customer cash advances against multi-truck random dispatches. Pull instant customer statements on demand.
+            Reconciles gate payments and subsequent installment deposits against dispatch bills in real time. Dynamic array formulas ensure customer balances count down automatically on every voucher.
           </p>
         </div>
 
@@ -360,9 +411,9 @@
           <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center justify-center mb-6 text-2xl font-bold">
             🛡️
           </div>
-          <h3 class="text-xl font-bold text-white mb-3">Tamper-Proof Cloud Governance</h3>
+          <h3 class="text-xl font-bold text-white mb-3">Multi-Site Ledger Isolation</h3>
           <p class="text-slate-300 text-sm leading-relaxed font-light">
-            Owners monitor live truck exits from anywhere on a view-only phone dashboard. On-site staff cannot delete or manipulate historical rows, securing your business from gate theft.
+            Automatically isolates accounts across different delivery sites. A payment for an order at one village never corrupts the ledger of another project under the same customer name.
           </p>
         </div>
 
@@ -371,31 +422,31 @@
 
     <!-- 3-Step Execution Workflow -->
     <section class="max-w-6xl mx-auto px-6 py-16 text-center">
-      <h2 class="text-3xl font-bold text-white mb-12">How It Runs On-Site in Real-Time</h2>
+      <h2 class="text-3xl font-bold text-white mb-12">How It Runs On-Site in Real Time</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
         
         <div class="p-7 glass-card rounded-2xl">
           <span class="text-cyan-400 font-bold text-lg font-mono-code">STAGE 01</span>
           <h4 class="text-white font-semibold text-lg mt-2 mb-2">Speak Voice Note</h4>
-          <p class="text-slate-400 text-sm leading-relaxed">Field supervisor speaks customer name, quantity, grade, and vehicle number in Bengali, Hindi, or English.</p>
+          <p class="text-slate-400 text-sm leading-relaxed">Field supervisor speaks customer name, quantity, grade, and vehicle number in Bengali, Hindi, or English into Telegram.</p>
         </div>
 
         <div class="p-7 glass-card rounded-2xl">
           <span class="text-blue-400 font-bold text-lg font-mono-code">STAGE 02</span>
           <h4 class="text-white font-semibold text-lg mt-2 mb-2">Neural Extraction & Math</h4>
-          <p class="text-slate-400 text-sm leading-relaxed">Shellcode neural models parse dialect details, calculate rates, update running advance ledgers, and log rows into secure Google Sheets.</p>
+          <p class="text-slate-400 text-sm leading-relaxed">Acoustic models filter engine roar, standardize rustic spellings, perform balance arithmetic, and record rows in Google Sheets.</p>
         </div>
 
         <div class="p-7 glass-card rounded-2xl">
           <span class="text-teal-300 font-bold text-lg font-mono-code">STAGE 03</span>
           <h4 class="text-white font-semibold text-lg mt-2 mb-2">Digital Delivery</h4>
-          <p class="text-slate-400 text-sm leading-relaxed">An immediate digital chalan is returned to Telegram for the driver, and synced to the owner's executive phone monitor.</p>
+          <p class="text-slate-400 text-sm leading-relaxed">An instant digital voucher with the live remaining balance is returned to Telegram for the driver and customer.</p>
         </div>
 
       </div>
     </section>
 
-    <!-- COMMERCIAL PRICING ARCHITECTURE SECTION -->
+    <!-- Commercial Pricing Section -->
     <section id="pricing" class="max-w-6xl mx-auto px-6 py-20">
       <div class="text-center mb-16">
         <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-cyan-500/30 bg-cyan-950/40 text-xs font-mono-code text-cyan-300 uppercase tracking-widest mb-3">
@@ -502,7 +553,7 @@
 
     <!-- Call To Action Box -->
     <section class="max-w-5xl mx-auto px-6 py-16">
-      <div class="relative overflow-hidden rounded-3xl p-10 md:p-14 text-center border border-cyan-500/30 bg-gradient-to-b from-cyan-950/40 via-slate-900/60 to-[#030712] shadow-2xl">
+      <div class="relative overflow-hidden rounded-3xl p-10 md:p-14 text-center border border-cyan-500/30 bg-gradient-to-b from-cyan-950/40 via-slate-900/60 to-[#020617] shadow-2xl">
         <div class="absolute -top-24 -left-24 w-72 h-72 bg-cyan-500/20 blur-3xl rounded-full pointer-events-none"></div>
         <div class="absolute -bottom-24 -right-24 w-72 h-72 bg-blue-500/20 blur-3xl rounded-full pointer-events-none"></div>
 
@@ -529,7 +580,7 @@
   </main>
 
   <!-- Professional Footer -->
-  <footer class="border-t border-cyan-500/10 bg-[#02050E] py-14 px-6 relative z-10">
+  <footer class="border-t border-cyan-500/10 bg-[#01040d] py-14 px-6 relative z-10">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
       <div>
         <h3 class="text-2xl font-bold text-white font-heading tracking-tight">SHELLCODE <span class="text-cyan-400">SYSTEMS</span></h3>
@@ -549,13 +600,22 @@
     </div>
   </footer>
 
-  <!-- Interactive Background Particles Script -->
+  <!-- Cursor Lighting Tracking & Canvas Particles Script -->
   <script>
+    // Dynamic Mouse Tracking for Reactive Ambient Lighting
+    window.addEventListener('mousemove', (e) => {
+      const x = (e.clientX / window.innerWidth) * 100;
+      const y = (e.clientY / window.innerHeight) * 100;
+      document.documentElement.style.setProperty('--mouse-x', `${e.clientX}px`);
+      document.documentElement.style.setProperty('--mouse-y', `${e.clientY}px`);
+    });
+
+    // Ambient Particle Network
     const canvas = document.getElementById('particleCanvas');
     const ctx = canvas.getContext('2d');
 
     let particles = [];
-    const particleCount = 45;
+    const particleCount = 42;
 
     function resize() {
       canvas.width = window.innerWidth;
@@ -571,10 +631,10 @@
       reset() {
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
-        this.vx = (Math.random() - 0.5) * 0.4;
-        this.vy = (Math.random() - 0.5) * 0.4;
+        this.vx = (Math.random() - 0.5) * 0.35;
+        this.vy = (Math.random() - 0.5) * 0.35;
         this.radius = Math.random() * 1.5 + 0.5;
-        this.alpha = Math.random() * 0.5 + 0.1;
+        this.alpha = Math.random() * 0.45 + 0.1;
       }
       update() {
         this.x += this.vx;
@@ -603,12 +663,12 @@
           const dx = particles[i].x - particles[j].x;
           const dy = particles[i].y - particles[j].y;
           const dist = Math.sqrt(dx * dx + dy * dy);
-          if (dist < 120) {
+          if (dist < 125) {
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.strokeStyle = `rgba(56, 189, 248, ${0.12 * (1 - dist / 120)})`;
-            ctx.lineWidth = 0.6;
+            ctx.strokeStyle = `rgba(56, 189, 248, ${0.12 * (1 - dist / 125)})`;
+            ctx.lineWidth = 0.55;
             ctx.stroke();
           }
         }
