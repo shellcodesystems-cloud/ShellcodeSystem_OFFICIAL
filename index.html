@@ -492,22 +492,30 @@
       </div>
     </section>
 
-    <!-- Commercial Pricing Section -->
-    <section id="pricing" class="max-w-6xl mx-auto px-6 py-20">
+    <!-- Commercial Pricing & Value-Stack Architecture Section -->
+    <section id="pricing" class="max-w-6xl mx-auto px-6 py-20 relative">
       <div class="text-center mb-16">
         <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-cyan-500/30 bg-cyan-950/40 text-xs font-mono-code text-cyan-300 uppercase tracking-widest mb-3">
           Transparent Commercial Architecture
         </div>
-        <h2 class="text-3xl sm:text-5xl font-bold text-white mb-4">Fair Pricing. Enterprise Execution.</h2>
-        <p class="text-slate-400 max-w-2xl mx-auto text-sm sm:text-base">Zero hidden licensing tricks. One clear engineering setup, followed by predictable monthly operational maintenance.</p>
+        <h2 class="text-3xl sm:text-5xl font-bold text-white mb-4">Fraction of the Cost. 10x the Value.</h2>
+        <p class="text-slate-400 max-w-2xl mx-auto text-sm sm:text-base">
+          Replacing expensive yard computers, fragile hardware, and extra office clerks with pure voice automation.
+        </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
         
-        <!-- One-Time Deployment Card -->
-        <div class="glass-card p-8 sm:p-10 rounded-3xl relative flex flex-col justify-between border-cyan-500/30">
+        <!-- One-Time Deployment Card (Value Anchored) -->
+        <div class="glass-card p-8 sm:p-10 rounded-3xl relative flex flex-col justify-between border-cyan-500/40">
+          
+          <!-- Value Anchor Badge -->
+          <div class="absolute -top-3.5 right-6 px-3.5 py-1 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-bold text-xs uppercase tracking-wider shadow-lg shadow-cyan-500/30">
+            Save 60% vs. Traditional ERP
+          </div>
+
           <div>
-            <div class="flex justify-between items-start mb-6">
+            <div class="flex justify-between items-start mb-4">
               <div>
                 <span class="text-xs font-mono-code uppercase tracking-widest text-cyan-400 font-semibold">Step 01: Setup & Calibration</span>
                 <h3 class="text-2xl font-bold text-white mt-1">Full System Deployment</h3>
@@ -515,82 +523,120 @@
               <span class="px-3 py-1 rounded-full bg-cyan-950 border border-cyan-500/30 text-cyan-300 text-xs font-mono-code">One-Time</span>
             </div>
 
-            <div class="flex items-baseline gap-2 mb-6">
-              <span class="text-4xl sm:text-5xl font-extrabold text-white font-heading">₹34,999</span>
-              <span class="text-slate-400 text-sm font-mono-code">/ site setup</span>
+            <!-- Price Anchoring Display -->
+            <div class="mb-6 p-4 rounded-xl bg-slate-950/80 border border-cyan-500/20">
+              <div class="flex items-center justify-between text-xs font-mono-code text-slate-400 mb-1">
+                <span>True Market Worth (Hardware + ERP):</span>
+                <span class="line-through text-slate-500 text-sm font-semibold">₹85,000</span>
+              </div>
+              <div class="flex items-baseline gap-3">
+                <span class="text-4xl sm:text-5xl font-extrabold text-white font-heading">₹34,999</span>
+                <span class="text-emerald-400 text-xs font-mono-code font-bold bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-500/30">
+                  Instant ₹50,000+ Capital Saved
+                </span>
+              </div>
             </div>
 
-            <p class="text-slate-300 text-sm leading-relaxed mb-8">
-              Complete engineering implementation tailored to your specific yard operations, vehicle dispatch rules, and customer credit ledger.
+            <p class="text-slate-300 text-sm leading-relaxed mb-6 font-light">
+              Complete engineering implementation tailored to your specific yard operations, vehicle dispatch rules, and customer credit ledger. Zero hardware investment required.
             </p>
 
-            <ul class="space-y-4 text-sm text-slate-300 mb-8">
-              <li class="flex items-start gap-3">
-                <span class="text-cyan-400 font-bold">✓</span>
-                <span>Custom Telegram bot creation & dedicated API integration</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <span class="text-cyan-400 font-bold">✓</span>
-                <span>Dialect acoustic tuning (Bengali, Hindi, English yard terms)</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <span class="text-cyan-400 font-bold">✓</span>
-                <span>Master Google Sheets architecture with tamper-proof locks</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <span class="text-cyan-400 font-bold">✓</span>
-                <span>5-Day live on-site calibration & field staff onboarding</span>
-              </li>
-            </ul>
+            <!-- Value Stack Itemization -->
+            <div class="space-y-3 text-sm text-slate-300 mb-8 border-t border-white/5 pt-5">
+              <div class="flex items-start justify-between gap-2">
+                <div class="flex items-start gap-2.5">
+                  <span class="text-cyan-400 font-bold">✓</span>
+                  <span>Custom Telegram Bot + Neural Gemini Parser</span>
+                </div>
+                <span class="text-xs font-mono-code text-slate-500 shrink-0">(Valued at ₹25,000)</span>
+              </div>
+              <div class="flex items-start justify-between gap-2">
+                <div class="flex items-start gap-2.5">
+                  <span class="text-cyan-400 font-bold">✓</span>
+                  <span>Multi-Site Google Sheets Ledger + Net Due Formulas</span>
+                </div>
+                <span class="text-xs font-mono-code text-slate-500 shrink-0">(Valued at ₹20,000)</span>
+              </div>
+              <div class="flex items-start justify-between gap-2">
+                <div class="flex items-start gap-2.5">
+                  <span class="text-cyan-400 font-bold">✓</span>
+                  <span>Dialect Acoustic Tuning (Engine Noise Suppression)</span>
+                </div>
+                <span class="text-xs font-mono-code text-slate-500 shrink-0">(Valued at ₹15,000)</span>
+              </div>
+              <div class="flex items-start justify-between gap-2">
+                <div class="flex items-start gap-2.5">
+                  <span class="text-cyan-400 font-bold">✓</span>
+                  <span>5-Day On-Site Staff Calibration & Testing</span>
+                </div>
+                <span class="text-xs font-mono-code text-emerald-400 font-bold shrink-0">Included Free</span>
+              </div>
+            </div>
           </div>
 
-          <div class="pt-6 border-t border-white/5">
-            <span class="text-xs font-mono-code text-cyan-400/80">Includes 5-Day Risk-Free Trial Period</span>
+          <div class="pt-5 border-t border-white/5 flex items-center justify-between text-xs font-mono-code">
+            <span class="text-cyan-400/90 font-semibold">100% Risk-Free 5-Day Trial</span>
+            <span class="text-slate-500">Pay only after live verification</span>
           </div>
         </div>
 
-        <!-- Monthly Maintenance Card -->
-        <div class="glass-card p-8 sm:p-10 rounded-3xl relative flex flex-col justify-between border-blue-500/30">
+        <!-- Monthly Operations Card (Payroll Savings Anchored) -->
+        <div class="glass-card p-8 sm:p-10 rounded-3xl relative flex flex-col justify-between border-blue-500/40">
+          
+          <!-- Value Anchor Badge -->
+          <div class="absolute -top-3.5 right-6 px-3.5 py-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold text-xs uppercase tracking-wider shadow-lg shadow-blue-500/30">
+            Cuts ₹10,000/mo in Payroll
+          </div>
+
           <div>
-            <div class="flex justify-between items-start mb-6">
+            <div class="flex justify-between items-start mb-4">
               <div>
                 <span class="text-xs font-mono-code uppercase tracking-widest text-blue-400 font-semibold">Step 02: Continuous Operations</span>
                 <h3 class="text-2xl font-bold text-white mt-1">Cloud & Ledger Maintenance</h3>
               </div>
-              <span class="px-3 py-1 rounded-full bg-blue-950 border border-blue-500/30 text-blue-300 text-xs font-mono-code">30-Day Billing</span>
+              <span class="px-3 py-1 rounded-full bg-blue-950 border border-blue-500/30 text-blue-300 text-xs font-mono-code">Monthly</span>
             </div>
 
-            <div class="flex items-baseline gap-2 mb-6">
-              <span class="text-4xl sm:text-5xl font-extrabold text-white font-heading">₹5,000</span>
-              <span class="text-slate-400 text-sm font-mono-code">to ₹15,000+ / mo</span>
+            <!-- Price Anchoring Display -->
+            <div class="mb-6 p-4 rounded-xl bg-slate-950/80 border border-blue-500/20">
+              <div class="flex items-center justify-between text-xs font-mono-code text-slate-400 mb-1">
+                <span>Computer Clerk Salary Equivalent:</span>
+                <span class="line-through text-slate-500 text-sm font-semibold">₹15,000/mo</span>
+              </div>
+              <div class="flex items-baseline gap-3">
+                <span class="text-4xl sm:text-5xl font-extrabold text-white font-heading">₹5,000</span>
+                <span class="text-slate-400 text-sm font-mono-code">/ month</span>
+              </div>
             </div>
 
-            <p class="text-slate-300 text-sm leading-relaxed mb-8">
-              Scales flexibly based on your daily dispatch volume, number of loading gates, and custom enterprise reporting needs.
+            <p class="text-slate-300 text-sm leading-relaxed mb-6 font-light">
+              Continuous 24/7 cloud uptime, automatic database backups, formula health audits, and instant technical support.
             </p>
 
-            <ul class="space-y-4 text-sm text-slate-300 mb-8">
-              <li class="flex items-start gap-3">
+            <!-- Operational Features -->
+            <div class="space-y-3.5 text-sm text-slate-300 mb-8 border-t border-white/5 pt-5">
+              <div class="flex items-start gap-3">
                 <span class="text-blue-400 font-bold">✓</span>
-                <span><strong>Standard (₹5,000/mo):</strong> Single gate, full advance ledger, up to 1,500 monthly chalans</span>
-              </li>
-              <li class="flex items-start gap-3">
+                <span><strong>Standard (₹5,000/mo):</strong> Single loading gate, full deposit ledger, up to 1,500 dispatches</span>
+              </div>
+              <div class="flex items-start gap-3">
                 <span class="text-blue-400 font-bold">✓</span>
-                <span><strong>Pro Fleet (₹8,000–₹10,000/mo):</strong> Multi-gate loading, daily executive owner digest</span>
-              </li>
-              <li class="flex items-start gap-3">
+                <span><strong>Pro Multi-Gate (₹8,000–₹10,000/mo):</strong> Multiple gates, daily owner digest, priority uptime</span>
+              </div>
+              <div class="flex items-start gap-3">
                 <span class="text-blue-400 font-bold">✓</span>
-                <span>Sub-3-second voice-to-chalan cloud pipeline & uptime assurance</span>
-              </li>
-              <li class="flex items-start gap-3">
+                <span>Sub-3-second voice pipeline & zero server downtime warranty</span>
+              </div>
+              <div class="flex items-start gap-3">
                 <span class="text-blue-400 font-bold">✓</span>
-                <span>Direct founder technical support (Aamir Molla)</span>
-              </li>
-            </ul>
+                <span>Direct line to Systems Architect (Aamir Molla)</span>
+              </div>
+            </div>
           </div>
 
-          <div class="pt-6 border-t border-white/5">
-            <span class="text-xs font-mono-code text-blue-400/80">No lock-in contract • Cancel or adjust anytime</span>
+          <div class="pt-5 border-t border-white/5 flex items-center justify-between text-xs font-mono-code">
+            <span class="text-blue-400 font-semibold">No Lock-in Contracts</span>
+            <span class="text-slate-500">Pause during off-season</span>
           </div>
         </div>
 
